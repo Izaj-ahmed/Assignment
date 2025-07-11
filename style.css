@@ -207,3 +207,117 @@ li{
     margin-bottom: 8px;
     border-radius: 8px;
 }
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 92px 150px 14px;
+}
+
+.contact h3{
+    font-size: 70px;
+    padding: 100px 100px 100px 120px;
+}
+
+.contact-item button{
+    width: 400px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    padding: 12px 33px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: white;
+}
+
+.footer-item{
+    margin: 100px 355px 0;
+    text-align: center;
+}
+
+.footer-item h3{
+    font-size: 80px;
+    margin: 0px;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-item p{
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.452);
+    margin: 0px;
+}
+
+ul{
+    display: flex;
+    gap: 48px;
+    padding: 20px 100px 0px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.452);
+}
+  
+/* challenge-item */
+
+.customer-review{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.customer-review .checked{
+    color: orange;
+    
+}
+
+.customer-review h5{
+    font-weight: 500;
+}
+
+.customer-review h6{
+    font-weight: 300;
+}
+
+.customer{
+    margin: 262px 151px 12px 149px;
+}
+
+.customer h2{
+    text-align: center;
+
+}
+
+.design{
+    background-color: #f8f0f0d7;
+    /* border: 1px; */
+    margin-right: 20px;
+    padding: 24px;
+}
+
+.final img{
+    height: 40px;
+    width: 40px;
+    border-radius: 9999px;
+}
+
+.final{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.button-hover:hover{
+    background-color: #9490ffef;
+}
